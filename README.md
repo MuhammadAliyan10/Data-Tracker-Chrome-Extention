@@ -15,4 +15,4 @@ The **Data Tracker Chrome Extension** is a powerful tool for monitoring and anal
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/data-tracker-chrome-extension.git
+   git clone https://github.com/MuhammadAliyan10/Data-Tracker-Chrome-Extention.git
