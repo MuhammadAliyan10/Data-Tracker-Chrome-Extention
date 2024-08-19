@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Tracker</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 300px;
+        margin: 0;
+        padding: 10px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        margin: 10px 0;
+      }
+      .details {
+        margin: 10px 0;
+      }
+      .details span {
+        display: block;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Request Details</h1>
+      <img id="requestImage" src="" alt="Request Image" />
+      <div class="details">
+        <span><strong>URL:</strong> <span id="requestUrl"></span></span>
+        <span><strong>Timestamp:</strong> <span id="requestTime"></span></span>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

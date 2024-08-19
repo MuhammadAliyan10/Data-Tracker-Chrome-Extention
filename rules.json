@@ -1,0 +1,21 @@
+{
+  "rules": [
+    {
+      "id": 1,
+      "condition": {
+        "urlFilter": "*",
+        "resourceTypes": ["main_frame"]
+      },
+      "action": {
+        "type": "modifyHeaders",
+        "responseHeaders": [
+          {
+            "header": "X-Tracked",
+            "operation": "set",
+            "value": "true"
+          }
+        ]
+      }
+    }
+  ]
+}
